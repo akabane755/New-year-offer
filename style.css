@@ -53,7 +53,7 @@
 font-size: 88px;
 font-weight: 700;
 line-height: 107px;
-letter-spacing: 0%;
+letter-spacing: 0;
 text-align: center;
 }
 .first p{
@@ -62,7 +62,7 @@ font-family: Inter;
 font-size: 24px;
 font-weight: 500;
 line-height: 29px;
-letter-spacing: 0%;
+letter-spacing: 0;
 text-align: center;
 }
 .first .h3{
@@ -71,7 +71,7 @@ font-family: Inter;
 font-size: 48px;
 font-weight: 700;
 line-height: 58px;
-letter-spacing: 0%;
+letter-spacing: 0;
 text-align: center;
 }
 .second
@@ -103,9 +103,7 @@ letter-spacing: 8px;
 
 width: 642px;
 height: 176px;
-left: 20.15%;
-right: 31.21%;
-top: 303.67%;
+
 margin-bottom:40px;
 }
 .second p{
@@ -121,7 +119,7 @@ color: rgba(255, 255, 255, 0.8);
 font-size: 18px;
 font-weight: 400;
 line-height: 30px;
-letter-spacing: 0%;
+letter-spacing: 0px;
 
     
 }
@@ -139,7 +137,7 @@ font-family: Inter;
 font-size: 20px;
 font-weight: bold;
 line-height: 24px;
-letter-spacing: 0%;
+letter-spacing: 0px;
 text-align: center;
 text-transform: uppercase;
 border: none;
