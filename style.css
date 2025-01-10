@@ -199,6 +199,8 @@ border-radius: 8px;
     height:463px;
     margin:200px 260px;
     gap:30px;
+    align-items: center;
+    justify-content: center;
 }
 .four1{
     margin-top:140px;
