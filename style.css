@@ -286,3 +286,71 @@ box-sizing: border-box;
 border: 15px solid rgb(255, 0, 0);
 border-radius:250px;
 }
+.five{
+
+}
+.five subscript{
+    width: 363px;
+height: 29px;
+color: rgb(7, 2, 17);
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+line-height: 29px;
+text-align: center;
+margin-bottom: 0px;
+}
+.five h1{
+    width: 677px;
+height: 91px;
+font-family: Merriweather;
+font-size: 72px;
+font-weight: 900;
+line-height: 91px;
+letter-spacing: 0%;
+text-align: center;
+margin-top:28px;
+margin-bottom:28px;
+}
+.five span{
+    color:rgb(255, 0, 0);
+}
+.five p{
+    width:900px;
+height: 96px;
+color: rgba(7, 2, 17, 0.6);
+font-family: Inter;
+font-size: 20px;
+font-weight: 500;
+line-height: 32px;
+text-align: center;
+}
+.five{
+    margin-top:140px;
+    display: flex;
+    flex-direction: column;
+    text-align:center;
+    justify-content:center;
+    align-items: center;
+}
+.six1{
+    display:flex;
+ background: url("images/Rectangle\ 2.png");
+ background-repeat: no-repeat;
+ background-position: bottom;
+ justify-items: center;
+ margin:150px 260px;
+}
+.six2{
+    width: 796.46px;
+    height: 662.07px;
+    background: transparent;
+    
+}
+.six3{
+    width: 305.69px;
+height: 305.69px;
+margin-left: 160px;
+margin-top:100px;
+
+}
