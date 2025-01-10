@@ -1,12 +1,15 @@
-.open-sans {
-    font-family: "Open Sans", serif;
-    font-optical-sizing: auto;
-    
-    font-style: normal;
-    font-variation-settings:
-      "wdth" 100;
+@font-face {
+    font-family: 'Inter';
+    src: url('fonts/Inter-Regular.woff2') format('woff2'),
+         url('fonts/Inter-Regular.woff') format('woff');
   }
-
+  
+  @font-face {
+    font-family: 'Merriweather';
+    src: url('fonts/Merriweather-Regular.woff2') format('woff2'),
+         url('fonts/Merriweather-Regular.woff') format('woff');
+  }
+  
 .head{
     background-image: linear-gradient(180.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%),url("images/Banner.png");
     height: 600px;
@@ -21,18 +24,18 @@
 }
  .head h1{
      color:white;
-     font: 800;
+     font: 700;
      font-size:72px;
      width:632px;
      height:190px;
-     margin-top:0px;
+     margin-top:20px;
 }
  .head p{
     width:259px;
      height:40px;
      font-size: 32px;
         color:white;
-        margin-top: 117px;
+        margin-top: 50px;
         margin-bottom:0px;
 }
 .first{
@@ -41,29 +44,116 @@
     justify-content: center;
     align-items: center;
     margin:100px 500px;
+    flex-wrap: nowrap;
+    text-align: center;
 }
 .first h1{
-    color:#FF0000;
-    height:107px;
-    width:383px;
-    font-size:88px;
-    font:bold;
-    margin-left:200px;
+    color: rgb(255, 0, 0);
+
+font-size: 88px;
+font-weight: 700;
+line-height: 107px;
+letter-spacing: 0%;
+text-align: center;
 }
 .first p{
-    color:#FF0000;
-    height: 29px;
-    width:397px;
-    font-size: 24px;
-    margin-left:200px;
-    font:800;
+    color: rgb(255, 0, 0);
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+line-height: 29px;
+letter-spacing: 0%;
+text-align: center;
 }
 .first .h3{
-    color:#070211;
-    height: 58px;
-    width:410px;
-    font-size: 48px;
-    font:bolder;
-    margin-left:200px;
-    margin-top:0px;
+    color: rgb(7, 2, 17);
+font-family: Inter;
+font-size: 48px;
+font-weight: 700;
+line-height: 58px;
+letter-spacing: 0%;
+text-align: center;
+}
+.second
+{
+    color:white;
+    background-image: linear-gradient(90.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%),url("images/Vectorrr.png");
+    width:1320px;
+    height:600px;
+    
+    margin:200px 260px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   text-align: left;
+   
+    
+
+}
+.second h1
+{
+    color: rgb(255, 255, 255);
+font-family: Merriweather;
+font-size: 64px;
+font-weight: 900;
+line-height: 88px;
+letter-spacing: 8px;
+
+
+width: 642px;
+height: 176px;
+left: 20.15%;
+right: 31.21%;
+top: 303.67%;
+margin-bottm:0px;
+}
+.second p{
+    font-family:Inter;
+width: 697px;
+height: 60px;
+left: 266px;
+right: 357px;
+margin-top:-30px;
+
+bottom: -1482px;
+color: rgba(255, 255, 255, 0.8);
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0%;
+
+    
+}
+.second button{
+   
+
+width: 203px;
+height: 24px;
+margin-left: -45px;
+right: 919px;
+margin-top:35px;
+bottom: -1554px;
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 20px;
+font-weight: bold;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+text-transform: uppercase;
+border: none;
+background: transparent;
+}
+.second .imt{
+    display: flex;
+   
+}
+.second .img{
+   background: linear-gradient(239.16deg, rgb(195, 133, 47) -44.157%,rgb(219, 173, 80) -29.738%,rgb(238, 204, 105) -17.378%,rgb(249, 223, 120) -7.079%,rgb(253, 230, 126) 1.161%,rgb(250, 226, 123) 19.7%,rgb(242, 215, 114) 36.179%,rgb(228, 195, 98) 54.718%,rgb(209, 168, 77) 71.198%,rgb(193, 147, 60) 81.497%,rgb(190, 143, 57) 83.557%,rgb(162, 107, 31) 102.096%,rgb(145, 84, 16) 118.576%,rgb(139, 76, 10) 126.815%,rgb(154, 95, 9) 141.234%,rgb(170, 115, 7) 161.834%),radial-gradient(49.50% 49.50% at 50% 50%,rgb(105, 11, 2) 27%,rgb(143, 73, 65) 39%,rgb(177, 128, 121) 51%,rgb(205, 173, 168) 62%,rgb(227, 209, 205) 73%,rgb(242, 234, 231) 84%,rgb(252, 250, 246) 93%,rgb(255, 255, 252) 100%);
+  
+   background: transparent;
+   background-blend-mode:overlay;
+    
+   
 }
