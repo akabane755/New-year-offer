@@ -539,7 +539,7 @@ footer{
 height: 609px;
 background: rgb(7, 2, 17);
 margin:123px ;
-margin-left:0px;
+margin-left:-100px;
 display: flex;
 flex-direction: column;
 justify-content: center;
